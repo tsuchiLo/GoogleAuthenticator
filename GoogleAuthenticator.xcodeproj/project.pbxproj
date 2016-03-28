@@ -23,15 +23,6 @@
 		E505F6A71CA9C6CB003FD2A4 /* Info-watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = E505F5D41CA9997B003FD2A4 /* Info-watchOS.plist */; };
 		E505F6A81CA9C6CE003FD2A4 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = E505F5D21CA99974003FD2A4 /* Info-tvOS.plist */; };
 		E505F6A91CA9C6D1003FD2A4 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = E505F5D01CA9996D003FD2A4 /* Info-iOS.plist */; };
-		E505F6EB1CA9CBA8003FD2A4 /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E505F6E51CA9CBA8003FD2A4 /* Base.xcconfig */; };
-		E505F6EC1CA9CBA8003FD2A4 /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E505F6E51CA9CBA8003FD2A4 /* Base.xcconfig */; };
-		E505F6ED1CA9CBA8003FD2A4 /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E505F6E51CA9CBA8003FD2A4 /* Base.xcconfig */; };
-		E505F6EE1CA9CBA8003FD2A4 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */; };
-		E505F6EF1CA9CBA8003FD2A4 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */; };
-		E505F6F01CA9CBA8003FD2A4 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */; };
-		E505F6F71CA9CBA8003FD2A4 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */; };
-		E505F6F81CA9CBA8003FD2A4 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */; };
-		E505F6F91CA9CBA8003FD2A4 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */; };
 		E53459F21CA91A72000990A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53459F11CA91A72000990A6 /* AppDelegate.swift */; };
 		E53459F41CA91A72000990A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53459F31CA91A72000990A6 /* ViewController.swift */; };
 		E53459F71CA91A72000990A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53459F51CA91A72000990A6 /* Main.storyboard */; };
@@ -75,9 +66,6 @@
 		E505F5D41CA9997B003FD2A4 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		E505F68A1CA9BBC9003FD2A4 /* Locksmith.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Locksmith.framework; path = Carthage/Build/iOS/Locksmith.framework; sourceTree = SOURCE_ROOT; };
 		E505F68B1CA9BBC9003FD2A4 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/iOS/OAuthSwift.framework; sourceTree = SOURCE_ROOT; };
-		E505F6E51CA9CBA8003FD2A4 /* Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
-		E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		E53459EF1CA91A72000990A6 /* GoogleAuthenticatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAuthenticatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53459F11CA91A72000990A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E53459F31CA91A72000990A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,16 +142,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E505F6E41CA9CBA8003FD2A4 /* Configurations */ = {
-			isa = PBXGroup;
-			children = (
-				E505F6E51CA9CBA8003FD2A4 /* Base.xcconfig */,
-				E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */,
-				E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */,
-			);
-			path = Configurations;
-			sourceTree = "<group>";
-		};
 		E53459F01CA91A72000990A6 /* GoogleAuthenticatorExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +158,6 @@
 		E5B77F321CA9121500F8BDD3 = {
 			isa = PBXGroup;
 			children = (
-				E505F6E41CA9CBA8003FD2A4 /* Configurations */,
 				E505F5C61CA99914003FD2A4 /* Sources */,
 				E505F55E1CA9463D003FD2A4 /* Frameworks */,
 				E5B77F4A1CA9121500F8BDD3 /* GoogleAuthenticatorTests */,
@@ -363,9 +340,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E505F6A71CA9C6CB003FD2A4 /* Info-watchOS.plist in Resources */,
-				E505F6EB1CA9CBA8003FD2A4 /* Base.xcconfig in Resources */,
-				E505F6F71CA9CBA8003FD2A4 /* Release.xcconfig in Resources */,
-				E505F6EE1CA9CBA8003FD2A4 /* Debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,9 +348,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E505F6A81CA9C6CE003FD2A4 /* Info-tvOS.plist in Resources */,
-				E505F6EC1CA9CBA8003FD2A4 /* Base.xcconfig in Resources */,
-				E505F6F81CA9CBA8003FD2A4 /* Release.xcconfig in Resources */,
-				E505F6EF1CA9CBA8003FD2A4 /* Debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,9 +356,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E505F6A91CA9C6D1003FD2A4 /* Info-iOS.plist in Resources */,
-				E505F6ED1CA9CBA8003FD2A4 /* Base.xcconfig in Resources */,
-				E505F6F91CA9CBA8003FD2A4 /* Release.xcconfig in Resources */,
-				E505F6F01CA9CBA8003FD2A4 /* Debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,7 +440,6 @@
 /* Begin XCBuildConfiguration section */
 		E505F5A41CA9985F003FD2A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -497,7 +464,6 @@
 		};
 		E505F5A51CA9985F003FD2A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -518,7 +484,6 @@
 		};
 		E505F5B21CA9986D003FD2A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -542,7 +507,6 @@
 		};
 		E505F5B31CA9986D003FD2A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -562,7 +526,6 @@
 		};
 		E505F5C31CA998BE003FD2A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				DEFINES_MODULE = YES;
@@ -581,7 +544,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "\"-D\" \"OAUTH_APP_EXTENSIONS\"";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GoogleAuthenticator-iOS";
 				PRODUCT_NAME = GoogleAuthenticator;
 				SDKROOT = iphoneos9.3;
@@ -591,7 +554,6 @@
 		};
 		E505F5C41CA998BE003FD2A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				DEFINES_MODULE = YES;
@@ -602,11 +564,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "\"-D\" \"OAUTH_APP_EXTENSIONS\"";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GoogleAuthenticator-iOS";
 				PRODUCT_NAME = GoogleAuthenticator;
 				SDKROOT = iphoneos9.3;
@@ -670,7 +633,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
-					"OAUTH_APP_EXTENSIONS=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -681,7 +643,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_SWIFT_FLAGS = "-D OAUTH_APP_EXTENSIONS";
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos9.3;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -717,7 +679,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = "OAUTH_APP_EXTENSIONS=1";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -726,7 +688,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_SWIFT_FLAGS = "-D OAUTH_APP_EXTENSIONS";
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos9.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
