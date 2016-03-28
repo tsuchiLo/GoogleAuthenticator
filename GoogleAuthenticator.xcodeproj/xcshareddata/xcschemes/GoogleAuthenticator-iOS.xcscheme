@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E505F5B81CA998BD003FD2A4"
-               BuildableName = "GoogleAuthenticator-iOS.framework"
+               BuildableName = "GoogleAuthenticator.framework"
                BlueprintName = "GoogleAuthenticator-iOS"
                ReferencedContainer = "container:GoogleAuthenticator.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E505F5B81CA998BD003FD2A4"
-            BuildableName = "GoogleAuthenticator-iOS.framework"
+            BuildableName = "GoogleAuthenticator.framework"
             BlueprintName = "GoogleAuthenticator-iOS"
             ReferencedContainer = "container:GoogleAuthenticator.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E505F5B81CA998BD003FD2A4"
-            BuildableName = "GoogleAuthenticator-iOS.framework"
+            BuildableName = "GoogleAuthenticator.framework"
             BlueprintName = "GoogleAuthenticator-iOS"
             ReferencedContainer = "container:GoogleAuthenticator.xcodeproj">
          </BuildableReference>

@@ -18,6 +18,8 @@
 		E505F5CF1CA99914003FD2A4 /* GoogleCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505F5C91CA99914003FD2A4 /* GoogleCredential.swift */; };
 		E505F5D61CA99A82003FD2A4 /* GoogleAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = E505F5BB1CA998BD003FD2A4 /* GoogleAuthenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E505F5D71CA99A83003FD2A4 /* GoogleAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = E505F5BB1CA998BD003FD2A4 /* GoogleAuthenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E505F68C1CA9BBC9003FD2A4 /* Locksmith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F68A1CA9BBC9003FD2A4 /* Locksmith.framework */; };
+		E505F68D1CA9BBC9003FD2A4 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F68B1CA9BBC9003FD2A4 /* OAuthSwift.framework */; };
 		E53459F21CA91A72000990A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53459F11CA91A72000990A6 /* AppDelegate.swift */; };
 		E53459F41CA91A72000990A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53459F31CA91A72000990A6 /* ViewController.swift */; };
 		E53459F71CA91A72000990A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53459F51CA91A72000990A6 /* Main.storyboard */; };
@@ -50,8 +52,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E505F5941CA95865003FD2A4 /* Locksmith.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Locksmith.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/GoogleAuthenticator-elfdyupxlelrfwajjighotguoiat/Build/Products/Debug-iphonesimulator/Locksmith.framework"; sourceTree = "<group>"; };
-		E505F5961CA9586C003FD2A4 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/GoogleAuthenticator-elfdyupxlelrfwajjighotguoiat/Build/Products/Debug-iphonesimulator/OAuthSwift.framework"; sourceTree = "<group>"; };
 		E505F59F1CA9985F003FD2A4 /* GoogleAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E505F5AC1CA9986D003FD2A4 /* GoogleAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E505F5B91CA998BD003FD2A4 /* GoogleAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +61,8 @@
 		E505F5D01CA9996D003FD2A4 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		E505F5D21CA99974003FD2A4 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		E505F5D41CA9997B003FD2A4 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		E505F68A1CA9BBC9003FD2A4 /* Locksmith.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Locksmith.framework; path = Carthage/Build/iOS/Locksmith.framework; sourceTree = SOURCE_ROOT; };
+		E505F68B1CA9BBC9003FD2A4 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/iOS/OAuthSwift.framework; sourceTree = SOURCE_ROOT; };
 		E53459EF1CA91A72000990A6 /* GoogleAuthenticatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAuthenticatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53459F11CA91A72000990A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E53459F31CA91A72000990A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E505F68C1CA9BBC9003FD2A4 /* Locksmith.framework in Frameworks */,
+				E505F68D1CA9BBC9003FD2A4 /* OAuthSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +112,8 @@
 		E505F55E1CA9463D003FD2A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E505F5961CA9586C003FD2A4 /* OAuthSwift.framework */,
-				E505F5941CA95865003FD2A4 /* Locksmith.framework */,
+				E505F68A1CA9BBC9003FD2A4 /* Locksmith.framework */,
+				E505F68B1CA9BBC9003FD2A4 /* OAuthSwift.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -521,6 +525,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -543,6 +551,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -685,6 +697,7 @@
 				E505F5A51CA9985F003FD2A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E505F5B11CA9986D003FD2A4 /* Build configuration list for PBXNativeTarget "GoogleAuthenticator-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -693,6 +706,7 @@
 				E505F5B31CA9986D003FD2A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E505F5C21CA998BE003FD2A4 /* Build configuration list for PBXNativeTarget "GoogleAuthenticator-iOS" */ = {
 			isa = XCConfigurationList;
@@ -701,6 +715,7 @@
 				E505F5C41CA998BE003FD2A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5345A001CA91A72000990A6 /* Build configuration list for PBXNativeTarget "GoogleAuthenticatorExample" */ = {
 			isa = XCConfigurationList;
