@@ -2,12 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Carthage/Checkouts/Locksmith/../OAuthSwift/OAuthSwift.xcodeproj">
+      location = "container:GoogleAuthenticator.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Carthage/Checkouts/Locksmith/Locksmith.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:GoogleAuthenticator.xcodeproj">
+      location = "group:Carthage/Checkouts/Locksmith/../OAuthSwift/OAuthSwift.xcodeproj">
    </FileRef>
 </Workspace>
