@@ -564,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -592,6 +593,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
