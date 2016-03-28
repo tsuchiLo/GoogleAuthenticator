@@ -137,7 +137,7 @@ public class GoogleAuthenticator: NSObject {
 public enum GoogleServiceScope: String {
     case GoogleAnalyticsRead = "https://www.googleapis.com/auth/analytics.readonly"
     
-    func isEqualToScope(scope: GoogleServiceScope) -> Bool {
+    public func isEqualToScope(scope: GoogleServiceScope) -> Bool {
         return self.rawValue == scope.rawValue
     }
 }
