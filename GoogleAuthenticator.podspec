@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name = "GoogleAnalyticsReader"
+  spec.name = "GoogleAuthenticator"
   spec.version = "0.1.0"
   spec.summary = "Authentication to Google services made easy."
   spec.homepage = "https://gitlab.touchwonders.com/fabio/googleauthenticator"
