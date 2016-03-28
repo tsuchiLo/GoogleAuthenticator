@@ -7,33 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E505F5951CA95865003FD2A4 /* Locksmith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F5941CA95865003FD2A4 /* Locksmith.framework */; };
-		E505F5971CA9586C003FD2A4 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F5961CA9586C003FD2A4 /* OAuthSwift.framework */; };
+		E505F5BC1CA998BD003FD2A4 /* GoogleAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = E505F5BB1CA998BD003FD2A4 /* GoogleAuthenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E505F5C01CA998BE003FD2A4 /* GoogleAuthenticator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F5B91CA998BD003FD2A4 /* GoogleAuthenticator.framework */; };
+		E505F5C11CA998BE003FD2A4 /* GoogleAuthenticator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E505F5B91CA998BD003FD2A4 /* GoogleAuthenticator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E505F5CA1CA99914003FD2A4 /* GoogleAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505F5C71CA99914003FD2A4 /* GoogleAuthenticator.swift */; };
+		E505F5CB1CA99914003FD2A4 /* GoogleAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505F5C71CA99914003FD2A4 /* GoogleAuthenticator.swift */; };
+		E505F5CC1CA99914003FD2A4 /* GoogleAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505F5C71CA99914003FD2A4 /* GoogleAuthenticator.swift */; };
+		E505F5CD1CA99914003FD2A4 /* GoogleCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505F5C91CA99914003FD2A4 /* GoogleCredential.swift */; };
+		E505F5CE1CA99914003FD2A4 /* GoogleCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505F5C91CA99914003FD2A4 /* GoogleCredential.swift */; };
+		E505F5CF1CA99914003FD2A4 /* GoogleCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505F5C91CA99914003FD2A4 /* GoogleCredential.swift */; };
+		E505F5D61CA99A82003FD2A4 /* GoogleAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = E505F5BB1CA998BD003FD2A4 /* GoogleAuthenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E505F5D71CA99A83003FD2A4 /* GoogleAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = E505F5BB1CA998BD003FD2A4 /* GoogleAuthenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E53459F21CA91A72000990A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53459F11CA91A72000990A6 /* AppDelegate.swift */; };
 		E53459F41CA91A72000990A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53459F31CA91A72000990A6 /* ViewController.swift */; };
 		E53459F71CA91A72000990A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53459F51CA91A72000990A6 /* Main.storyboard */; };
 		E53459F91CA91A72000990A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53459F81CA91A72000990A6 /* Assets.xcassets */; };
 		E53459FC1CA91A72000990A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53459FA1CA91A72000990A6 /* LaunchScreen.storyboard */; };
-		E5B77F401CA9121500F8BDD3 /* GoogleAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B77F3F1CA9121500F8BDD3 /* GoogleAuthenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5B77F471CA9121500F8BDD3 /* GoogleAuthenticator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B77F3C1CA9121500F8BDD3 /* GoogleAuthenticator.framework */; };
-		E5B77F4C1CA9121500F8BDD3 /* GoogleAuthenticatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B77F4B1CA9121500F8BDD3 /* GoogleAuthenticatorTests.swift */; };
-		E5B77F731CA9171800F8BDD3 /* GoogleAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B77F721CA9171800F8BDD3 /* GoogleAuthenticator.swift */; };
-		E5B77F761CA9172800F8BDD3 /* GoogleCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B77F751CA9172800F8BDD3 /* GoogleCredential.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E5B77F481CA9121500F8BDD3 /* PBXContainerItemProxy */ = {
+		E505F5BE1CA998BD003FD2A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E5B77F331CA9121500F8BDD3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5B77F3B1CA9121500F8BDD3;
-			remoteInfo = GoogleAuthenticator;
+			remoteGlobalIDString = E505F5B81CA998BD003FD2A4;
+			remoteInfo = "GoogleAuthenticator-iOS";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E505F5C51CA998BE003FD2A4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E505F5C11CA998BE003FD2A4 /* GoogleAuthenticator.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E505F5941CA95865003FD2A4 /* Locksmith.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Locksmith.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/GoogleAuthenticator-elfdyupxlelrfwajjighotguoiat/Build/Products/Debug-iphonesimulator/Locksmith.framework"; sourceTree = "<group>"; };
 		E505F5961CA9586C003FD2A4 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/GoogleAuthenticator-elfdyupxlelrfwajjighotguoiat/Build/Products/Debug-iphonesimulator/OAuthSwift.framework"; sourceTree = "<group>"; };
+		E505F59F1CA9985F003FD2A4 /* GoogleAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E505F5AC1CA9986D003FD2A4 /* GoogleAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E505F5B91CA998BD003FD2A4 /* GoogleAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E505F5BB1CA998BD003FD2A4 /* GoogleAuthenticator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleAuthenticator.h; sourceTree = "<group>"; };
+		E505F5C71CA99914003FD2A4 /* GoogleAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticator.swift; sourceTree = "<group>"; };
+		E505F5C91CA99914003FD2A4 /* GoogleCredential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleCredential.swift; sourceTree = "<group>"; };
+		E505F5D01CA9996D003FD2A4 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		E505F5D21CA99974003FD2A4 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		E505F5D41CA9997B003FD2A4 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		E53459EF1CA91A72000990A6 /* GoogleAuthenticatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAuthenticatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53459F11CA91A72000990A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E53459F31CA91A72000990A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,38 +68,37 @@
 		E53459F81CA91A72000990A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E53459FB1CA91A72000990A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E53459FD1CA91A72000990A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5B77F3C1CA9121500F8BDD3 /* GoogleAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5B77F3F1CA9121500F8BDD3 /* GoogleAuthenticator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleAuthenticator.h; sourceTree = "<group>"; };
-		E5B77F411CA9121500F8BDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5B77F461CA9121500F8BDD3 /* GoogleAuthenticatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleAuthenticatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B77F4B1CA9121500F8BDD3 /* GoogleAuthenticatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticatorTests.swift; sourceTree = "<group>"; };
 		E5B77F4D1CA9121500F8BDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5B77F721CA9171800F8BDD3 /* GoogleAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticator.swift; sourceTree = "<group>"; };
-		E5B77F751CA9172800F8BDD3 /* GoogleCredential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleCredential.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E505F59B1CA9985F003FD2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5A81CA9986D003FD2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5B51CA998BD003FD2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E53459EC1CA91A72000990A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5B77F381CA9121500F8BDD3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E505F5971CA9586C003FD2A4 /* OAuthSwift.framework in Frameworks */,
-				E505F5951CA95865003FD2A4 /* Locksmith.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5B77F431CA9121500F8BDD3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5B77F471CA9121500F8BDD3 /* GoogleAuthenticator.framework in Frameworks */,
+				E505F5C01CA998BE003FD2A4 /* GoogleAuthenticator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +112,27 @@
 				E505F5941CA95865003FD2A4 /* Locksmith.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		E505F5C61CA99914003FD2A4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E505F5BB1CA998BD003FD2A4 /* GoogleAuthenticator.h */,
+				E505F5D41CA9997B003FD2A4 /* Info-watchOS.plist */,
+				E505F5D21CA99974003FD2A4 /* Info-tvOS.plist */,
+				E505F5D01CA9996D003FD2A4 /* Info-iOS.plist */,
+				E505F5C71CA99914003FD2A4 /* GoogleAuthenticator.swift */,
+				E505F5C81CA99914003FD2A4 /* Models */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E505F5C81CA99914003FD2A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E505F5C91CA99914003FD2A4 /* GoogleCredential.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E53459F01CA91A72000990A6 /* GoogleAuthenticatorExample */ = {
@@ -104,8 +151,8 @@
 		E5B77F321CA9121500F8BDD3 = {
 			isa = PBXGroup;
 			children = (
+				E505F5C61CA99914003FD2A4 /* Sources */,
 				E505F55E1CA9463D003FD2A4 /* Frameworks */,
-				E5B77F3E1CA9121500F8BDD3 /* GoogleAuthenticator */,
 				E5B77F4A1CA9121500F8BDD3 /* GoogleAuthenticatorTests */,
 				E53459F01CA91A72000990A6 /* GoogleAuthenticatorExample */,
 				E5B77F3D1CA9121500F8BDD3 /* Products */,
@@ -115,22 +162,12 @@
 		E5B77F3D1CA9121500F8BDD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5B77F3C1CA9121500F8BDD3 /* GoogleAuthenticator.framework */,
-				E5B77F461CA9121500F8BDD3 /* GoogleAuthenticatorTests.xctest */,
 				E53459EF1CA91A72000990A6 /* GoogleAuthenticatorExample.app */,
+				E505F59F1CA9985F003FD2A4 /* GoogleAuthenticator.framework */,
+				E505F5AC1CA9986D003FD2A4 /* GoogleAuthenticator.framework */,
+				E505F5B91CA998BD003FD2A4 /* GoogleAuthenticator.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E5B77F3E1CA9121500F8BDD3 /* GoogleAuthenticator */ = {
-			isa = PBXGroup;
-			children = (
-				E5B77F741CA9172200F8BDD3 /* Models */,
-				E5B77F721CA9171800F8BDD3 /* GoogleAuthenticator.swift */,
-				E5B77F3F1CA9121500F8BDD3 /* GoogleAuthenticator.h */,
-				E5B77F411CA9121500F8BDD3 /* Info.plist */,
-			);
-			path = GoogleAuthenticator;
 			sourceTree = "<group>";
 		};
 		E5B77F4A1CA9121500F8BDD3 /* GoogleAuthenticatorTests */ = {
@@ -142,28 +179,90 @@
 			path = GoogleAuthenticatorTests;
 			sourceTree = "<group>";
 		};
-		E5B77F741CA9172200F8BDD3 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				E5B77F751CA9172800F8BDD3 /* GoogleCredential.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E5B77F391CA9121500F8BDD3 /* Headers */ = {
+		E505F59C1CA9985F003FD2A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B77F401CA9121500F8BDD3 /* GoogleAuthenticator.h in Headers */,
+				E505F5D71CA99A83003FD2A4 /* GoogleAuthenticator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5A91CA9986D003FD2A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E505F5D61CA99A82003FD2A4 /* GoogleAuthenticator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5B61CA998BD003FD2A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E505F5BC1CA998BD003FD2A4 /* GoogleAuthenticator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		E505F59E1CA9985F003FD2A4 /* GoogleAuthenticator-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E505F5A61CA9985F003FD2A4 /* Build configuration list for PBXNativeTarget "GoogleAuthenticator-watchOS" */;
+			buildPhases = (
+				E505F59A1CA9985F003FD2A4 /* Sources */,
+				E505F59B1CA9985F003FD2A4 /* Frameworks */,
+				E505F59C1CA9985F003FD2A4 /* Headers */,
+				E505F59D1CA9985F003FD2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleAuthenticator-watchOS";
+			productName = "GoogleAuthenticator-watchOS";
+			productReference = E505F59F1CA9985F003FD2A4 /* GoogleAuthenticator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E505F5AB1CA9986D003FD2A4 /* GoogleAuthenticator-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E505F5B11CA9986D003FD2A4 /* Build configuration list for PBXNativeTarget "GoogleAuthenticator-tvOS" */;
+			buildPhases = (
+				E505F5A71CA9986D003FD2A4 /* Sources */,
+				E505F5A81CA9986D003FD2A4 /* Frameworks */,
+				E505F5A91CA9986D003FD2A4 /* Headers */,
+				E505F5AA1CA9986D003FD2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleAuthenticator-tvOS";
+			productName = "GoogleAuthenticator-tvOS";
+			productReference = E505F5AC1CA9986D003FD2A4 /* GoogleAuthenticator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E505F5B81CA998BD003FD2A4 /* GoogleAuthenticator-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E505F5C21CA998BE003FD2A4 /* Build configuration list for PBXNativeTarget "GoogleAuthenticator-iOS" */;
+			buildPhases = (
+				E505F5B41CA998BD003FD2A4 /* Sources */,
+				E505F5B51CA998BD003FD2A4 /* Frameworks */,
+				E505F5B61CA998BD003FD2A4 /* Headers */,
+				E505F5B71CA998BD003FD2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleAuthenticator-iOS";
+			productName = "GoogleAuthenticator-iOS";
+			productReference = E505F5B91CA998BD003FD2A4 /* GoogleAuthenticator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		E53459EE1CA91A72000990A6 /* GoogleAuthenticatorExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5345A001CA91A72000990A6 /* Build configuration list for PBXNativeTarget "GoogleAuthenticatorExample" */;
@@ -171,51 +270,17 @@
 				E53459EB1CA91A72000990A6 /* Sources */,
 				E53459EC1CA91A72000990A6 /* Frameworks */,
 				E53459ED1CA91A72000990A6 /* Resources */,
+				E505F5C51CA998BE003FD2A4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E505F5BF1CA998BD003FD2A4 /* PBXTargetDependency */,
 			);
 			name = GoogleAuthenticatorExample;
 			productName = GoogleAuthenticatorExample;
 			productReference = E53459EF1CA91A72000990A6 /* GoogleAuthenticatorExample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		E5B77F3B1CA9121500F8BDD3 /* GoogleAuthenticator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E5B77F501CA9121500F8BDD3 /* Build configuration list for PBXNativeTarget "GoogleAuthenticator" */;
-			buildPhases = (
-				E5B77F371CA9121500F8BDD3 /* Sources */,
-				E5B77F381CA9121500F8BDD3 /* Frameworks */,
-				E5B77F391CA9121500F8BDD3 /* Headers */,
-				E5B77F3A1CA9121500F8BDD3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GoogleAuthenticator;
-			productName = GoogleAuthenticator;
-			productReference = E5B77F3C1CA9121500F8BDD3 /* GoogleAuthenticator.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E5B77F451CA9121500F8BDD3 /* GoogleAuthenticatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E5B77F531CA9121500F8BDD3 /* Build configuration list for PBXNativeTarget "GoogleAuthenticatorTests" */;
-			buildPhases = (
-				E5B77F421CA9121500F8BDD3 /* Sources */,
-				E5B77F431CA9121500F8BDD3 /* Frameworks */,
-				E5B77F441CA9121500F8BDD3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E5B77F491CA9121500F8BDD3 /* PBXTargetDependency */,
-			);
-			name = GoogleAuthenticatorTests;
-			productName = GoogleAuthenticatorTests;
-			productReference = E5B77F461CA9121500F8BDD3 /* GoogleAuthenticatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -227,13 +292,16 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Touchwonders;
 				TargetAttributes = {
+					E505F59E1CA9985F003FD2A4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E505F5AB1CA9986D003FD2A4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E505F5B81CA998BD003FD2A4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					E53459EE1CA91A72000990A6 = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					E5B77F3B1CA9121500F8BDD3 = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					E5B77F451CA9121500F8BDD3 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -251,14 +319,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5B77F3B1CA9121500F8BDD3 /* GoogleAuthenticator */,
-				E5B77F451CA9121500F8BDD3 /* GoogleAuthenticatorTests */,
 				E53459EE1CA91A72000990A6 /* GoogleAuthenticatorExample */,
+				E505F59E1CA9985F003FD2A4 /* GoogleAuthenticator-watchOS */,
+				E505F5AB1CA9986D003FD2A4 /* GoogleAuthenticator-tvOS */,
+				E505F5B81CA998BD003FD2A4 /* GoogleAuthenticator-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E505F59D1CA9985F003FD2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5AA1CA9986D003FD2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5B71CA998BD003FD2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E53459ED1CA91A72000990A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,23 +359,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5B77F3A1CA9121500F8BDD3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5B77F441CA9121500F8BDD3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E505F59A1CA9985F003FD2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E505F5CA1CA99914003FD2A4 /* GoogleAuthenticator.swift in Sources */,
+				E505F5CD1CA99914003FD2A4 /* GoogleCredential.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5A71CA9986D003FD2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E505F5CB1CA99914003FD2A4 /* GoogleAuthenticator.swift in Sources */,
+				E505F5CE1CA99914003FD2A4 /* GoogleCredential.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E505F5B41CA998BD003FD2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E505F5CC1CA99914003FD2A4 /* GoogleAuthenticator.swift in Sources */,
+				E505F5CF1CA99914003FD2A4 /* GoogleCredential.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E53459EB1CA91A72000990A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,30 +398,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5B77F371CA9121500F8BDD3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5B77F731CA9171800F8BDD3 /* GoogleAuthenticator.swift in Sources */,
-				E5B77F761CA9172800F8BDD3 /* GoogleCredential.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5B77F421CA9121500F8BDD3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5B77F4C1CA9121500F8BDD3 /* GoogleAuthenticatorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E5B77F491CA9121500F8BDD3 /* PBXTargetDependency */ = {
+		E505F5BF1CA998BD003FD2A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5B77F3B1CA9121500F8BDD3 /* GoogleAuthenticator */;
-			targetProxy = E5B77F481CA9121500F8BDD3 /* PBXContainerItemProxy */;
+			target = E505F5B81CA998BD003FD2A4 /* GoogleAuthenticator-iOS */;
+			targetProxy = E505F5BE1CA998BD003FD2A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -342,10 +428,137 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E505F5A41CA9985F003FD2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GoogleAuthenticator-watchOS";
+				PRODUCT_NAME = GoogleAuthenticator;
+				SDKROOT = watchos2.2;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		E505F5A51CA9985F003FD2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GoogleAuthenticator-watchOS";
+				PRODUCT_NAME = GoogleAuthenticator;
+				SDKROOT = watchos2.2;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		E505F5B21CA9986D003FD2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GoogleAuthenticator-tvOS";
+				PRODUCT_NAME = GoogleAuthenticator;
+				SDKROOT = appletvos9.2;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		E505F5B31CA9986D003FD2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GoogleAuthenticator-tvOS";
+				PRODUCT_NAME = GoogleAuthenticator;
+				SDKROOT = appletvos9.2;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		E505F5C31CA998BE003FD2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GoogleAuthenticator-iOS";
+				PRODUCT_NAME = GoogleAuthenticator;
+				SDKROOT = iphoneos9.3;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E505F5C41CA998BE003FD2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touchwonders.GoogleAuthenticator-iOS";
+				PRODUCT_NAME = GoogleAuthenticator;
+				SDKROOT = iphoneos9.3;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		E53459FE1CA91A72000990A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = GoogleAuthenticatorExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.GoogleAuthenticatorExample;
@@ -357,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = GoogleAuthenticatorExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.GoogleAuthenticatorExample;
@@ -461,74 +675,33 @@
 			};
 			name = Release;
 		};
-		E5B77F511CA9121500F8BDD3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Checkouts/Locksmith/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/Carthage/Checkouts/OAuthSwift/build/Debug-iphoneos",
-				);
-				INFOPLIST_FILE = GoogleAuthenticator/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.GoogleAuthenticator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		E5B77F521CA9121500F8BDD3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Checkouts/Locksmith/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/Carthage/Checkouts/OAuthSwift/build/Debug-iphoneos",
-				);
-				INFOPLIST_FILE = GoogleAuthenticator/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.GoogleAuthenticator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E5B77F541CA9121500F8BDD3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GoogleAuthenticatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.GoogleAuthenticatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		E5B77F551CA9121500F8BDD3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GoogleAuthenticatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touchwonders.GoogleAuthenticatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E505F5A61CA9985F003FD2A4 /* Build configuration list for PBXNativeTarget "GoogleAuthenticator-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E505F5A41CA9985F003FD2A4 /* Debug */,
+				E505F5A51CA9985F003FD2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E505F5B11CA9986D003FD2A4 /* Build configuration list for PBXNativeTarget "GoogleAuthenticator-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E505F5B21CA9986D003FD2A4 /* Debug */,
+				E505F5B31CA9986D003FD2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E505F5C21CA998BE003FD2A4 /* Build configuration list for PBXNativeTarget "GoogleAuthenticator-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E505F5C31CA998BE003FD2A4 /* Debug */,
+				E505F5C41CA998BE003FD2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E5345A001CA91A72000990A6 /* Build configuration list for PBXNativeTarget "GoogleAuthenticatorExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -543,24 +716,6 @@
 			buildConfigurations = (
 				E5B77F4E1CA9121500F8BDD3 /* Debug */,
 				E5B77F4F1CA9121500F8BDD3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E5B77F501CA9121500F8BDD3 /* Build configuration list for PBXNativeTarget "GoogleAuthenticator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5B77F511CA9121500F8BDD3 /* Debug */,
-				E5B77F521CA9121500F8BDD3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E5B77F531CA9121500F8BDD3 /* Build configuration list for PBXNativeTarget "GoogleAuthenticatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5B77F541CA9121500F8BDD3 /* Debug */,
-				E5B77F551CA9121500F8BDD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

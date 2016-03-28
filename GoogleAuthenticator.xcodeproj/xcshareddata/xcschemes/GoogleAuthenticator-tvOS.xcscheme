@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E5B77F3B1CA9121500F8BDD3"
-               BuildableName = "GoogleAuthenticator.framework"
-               BlueprintName = "GoogleAuthenticator"
+               BlueprintIdentifier = "E505F5AB1CA9986D003FD2A4"
+               BuildableName = "GoogleAuthenticator-tvOS.framework"
+               BlueprintName = "GoogleAuthenticator-tvOS"
                ReferencedContainer = "container:GoogleAuthenticator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E5B77F451CA9121500F8BDD3"
-               BuildableName = "GoogleAuthenticatorTests.xctest"
-               BlueprintName = "GoogleAuthenticatorTests"
-               ReferencedContainer = "container:GoogleAuthenticator.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E5B77F3B1CA9121500F8BDD3"
-            BuildableName = "GoogleAuthenticator.framework"
-            BlueprintName = "GoogleAuthenticator"
-            ReferencedContainer = "container:GoogleAuthenticator.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E5B77F3B1CA9121500F8BDD3"
-            BuildableName = "GoogleAuthenticator.framework"
-            BlueprintName = "GoogleAuthenticator"
+            BlueprintIdentifier = "E505F5AB1CA9986D003FD2A4"
+            BuildableName = "GoogleAuthenticator-tvOS.framework"
+            BlueprintName = "GoogleAuthenticator-tvOS"
             ReferencedContainer = "container:GoogleAuthenticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E5B77F3B1CA9121500F8BDD3"
-            BuildableName = "GoogleAuthenticator.framework"
-            BlueprintName = "GoogleAuthenticator"
+            BlueprintIdentifier = "E505F5AB1CA9986D003FD2A4"
+            BuildableName = "GoogleAuthenticator-tvOS.framework"
+            BlueprintName = "GoogleAuthenticator-tvOS"
             ReferencedContainer = "container:GoogleAuthenticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

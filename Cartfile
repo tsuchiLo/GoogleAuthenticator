@@ -1,2 +1,2 @@
 github "matthewpalmer/Locksmith" ~> 2.0.8
-github "fabiomassimo/OAuthSwift" "master"
+github "OAuthSwift/OAuthSwift" "master"
