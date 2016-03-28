@@ -13,6 +13,5 @@ Pod::Spec.new do |spec|
   spec.source_files = "GoogleAnalyticsReader/**/*.{h,swift}"
 
   spec.dependency "OAuthSwift", "~> 0.5.1"
-  spec.dependency "Freddy", "~> 2.0"
   spec.dependency "Locksmith", "~> 2.0.8"
 end
