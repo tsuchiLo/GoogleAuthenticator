@@ -472,6 +472,7 @@
 /* Begin XCBuildConfiguration section */
 		E505F5A41CA9985F003FD2A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -496,6 +497,7 @@
 		};
 		E505F5A51CA9985F003FD2A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -516,6 +518,7 @@
 		};
 		E505F5B21CA9986D003FD2A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -539,6 +542,7 @@
 		};
 		E505F5B31CA9986D003FD2A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -558,6 +562,7 @@
 		};
 		E505F5C31CA998BE003FD2A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E505F6E61CA9CBA8003FD2A4 /* Debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -585,6 +590,7 @@
 		};
 		E505F5C41CA998BE003FD2A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E505F6E91CA9CBA8003FD2A4 /* Release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
