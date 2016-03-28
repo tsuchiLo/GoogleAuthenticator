@@ -20,6 +20,9 @@
 		E505F5D71CA99A83003FD2A4 /* GoogleAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = E505F5BB1CA998BD003FD2A4 /* GoogleAuthenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E505F68C1CA9BBC9003FD2A4 /* Locksmith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F68A1CA9BBC9003FD2A4 /* Locksmith.framework */; };
 		E505F68D1CA9BBC9003FD2A4 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E505F68B1CA9BBC9003FD2A4 /* OAuthSwift.framework */; };
+		E505F6A71CA9C6CB003FD2A4 /* Info-watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = E505F5D41CA9997B003FD2A4 /* Info-watchOS.plist */; };
+		E505F6A81CA9C6CE003FD2A4 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = E505F5D21CA99974003FD2A4 /* Info-tvOS.plist */; };
+		E505F6A91CA9C6D1003FD2A4 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = E505F5D01CA9996D003FD2A4 /* Info-iOS.plist */; };
 		E53459F21CA91A72000990A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53459F11CA91A72000990A6 /* AppDelegate.swift */; };
 		E53459F41CA91A72000990A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53459F31CA91A72000990A6 /* ViewController.swift */; };
 		E53459F71CA91A72000990A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53459F51CA91A72000990A6 /* Main.storyboard */; };
@@ -336,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E505F6A71CA9C6CB003FD2A4 /* Info-watchOS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E505F6A81CA9C6CE003FD2A4 /* Info-tvOS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E505F6A91CA9C6D1003FD2A4 /* Info-iOS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
