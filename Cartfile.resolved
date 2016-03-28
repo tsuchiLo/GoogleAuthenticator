@@ -1,0 +1,4 @@
+github "matthewpalmer/Locksmith" "2.0.8"
+github "Quick/Nimble" "v3.2.0"
+git "file:///Users/Fabio/Developer/github/iOS/OAuthSwift" "d230747cc3e161367e72765b369bbc4349cd0d88"
+github "Quick/Quick" "v0.9.1"

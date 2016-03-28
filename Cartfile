@@ -1,0 +1,4 @@
+github "matthewpalmer/Locksmith" ~> 2.0.8
+github "Quick/Quick" ~> 0.9.1
+github "Quick/Nimble" ~> 3.2.0
+github "fabiomassimo/OAuthSwift" "master"
