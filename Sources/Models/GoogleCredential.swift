@@ -42,7 +42,7 @@ public struct GoogleCredential: CreateableSecureStorable, GenericPasswordSecureS
     }
     
     // Required by GenericPasswordSecureStorable
-    public let service = "GoogleAuthenticator"
+    public let service = "com.touchwonders.GoogleAuthenticator"
     public var account: String { return consumerKey }
 }
 
