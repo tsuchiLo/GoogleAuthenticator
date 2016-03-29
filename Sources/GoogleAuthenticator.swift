@@ -39,14 +39,11 @@ public class GoogleAuthenticator: NSObject {
     }
     
     // MARK: init
-    public init(consumerKey: String, consumerSecret: String, scope:GoogleServiceScope,
-        bundleIdentifier: String? = NSBundle.mainBundle().bundleIdentifier)
+    public init(consumerKey: String, consumerSecret: String, bundleIdentifier: String, scope:GoogleServiceScope)
     {
         self.credential = GoogleCredential(consumerKey: consumerKey, consumerSecret: consumerSecret)
         
-        if let identifier = bundleIdentifier {
-            self.callBackUrl = NSURL(string: "\(identifier):/urn:ietf:wg:oauth:2.0:oob")!
-        }
+        self.callBackUrl = NSURL(string: "\(bundleIdentifier):/urn:ietf:wg:oauth:2.0:oob")!
         
         self.serviceScope = scope
         

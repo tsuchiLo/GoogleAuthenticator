@@ -11,7 +11,7 @@ import GoogleAuthenticator
 
 class ViewController: UIViewController {
 
-    let authenticator = GoogleAuthenticator(consumerKey: "YOUR-CONSUMER-KEY", consumerSecret:"YOUR-SECRET-KEY", scope: GoogleServiceScope.GoogleAnalyticsRead)
+    let authenticator = GoogleAuthenticator(consumerKey: "YOUR-CONSUMER-KEY", consumerSecret:"YOUR-SECRET-KEY", bundleIdentifier: "YOUR_BUNDLE", scope: GoogleServiceScope.GoogleAnalyticsRead)
     
     override func viewDidLoad() {
         super.viewDidLoad()
